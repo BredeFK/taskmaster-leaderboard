@@ -1,412 +1,409 @@
 html {
-	background-image: url("../images/background.jpg");
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 
-	font-size: 62.5%;
+    font-size: 62.5%;
 }
 
 html, body {
-	width: 100%;
-	height: 100%;
-	position: fixed;
+    width: 100%;
+    height: 100%;
+    position: fixed;
 }
 
 body {
-	display: block;
+    display: block;
 
-	padding: 0;
-	margin: 0;
+    padding: 0;
+    margin: 0;
 
-	font-size: 20px;
-	font-size: 2.0rem;
+    font-size: 20px;
+    font-size: 2.0rem;
 
-	font-family: sans-serif;
+    font-family: sans-serif;
 
-	overflow: hidden;
+    overflow: hidden;
 }
 
 a {
-	color: white;
-	font-weight: 600;
+    color: white;
+    font-weight: 600;
 }
 
 #settings {
-	padding: 20px;
-	padding: 2rem;
+    padding: 20px;
+    padding: 2rem;
 
-	transition: opacity 0.2s;
+    transition: opacity 0.2s;
 
-	width: 80%;
-	max-width: 500px;
-	max-width: 50rem;
+    width: 80%;
+    max-width: 500px;
+    max-width: 50rem;
 
-	color: white;
+    color: white;
 
-	position: absolute;
+    position: absolute;
 
-	z-index: 100;
+    z-index: 100;
 }
 
 #settings-link {
-	background-color: rgba(88, 15, 13, 0.8);
-	padding: 10px;
-	padding: 1rem;
-	line-height: 200%;
-	height: 200%;
+    background-color: rgba(88, 15, 13, 0.8);
+    padding: 10px;
+    padding: 1rem;
+    line-height: 200%;
+    height: 200%;
 }
 
 .inner-container {
-	background-color: rgba(88, 15, 13, 0.8);
-	padding: 20px;
-	padding: 2rem;
+    background-color: rgba(88, 15, 13, 0.8);
+    padding: 20px;
+    padding: 2rem;
 }
 
 .inner-container.invisible {
-	display: none;
+    display: none;
 }
 
 .invisible {
-	opacity: 0;
+    opacity: 0;
 }
 
 .contestant-settings {
-	width: 100%;
-	height: 72px;
-	height: 7.2rem;
-	
-	margin-top: -1px;
-	margin-top: -0.1rem;
-	
-	border: 1px solid rgba(0, 0, 0, 0.6);
-	border: 0.1rem solid rgna(0, 0, 0 , 0.6);
+    width: 100%;
+    height: 72px;
+    height: 7.2rem;
+
+    margin-top: -1px;
+    margin-top: -0.1rem;
+
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    border: 0.1rem solid rgna(0, 0, 0, 0.6);
 }
 
 .contestant-settings * {
-	float: right;
+    float: right;
 
-	margin-right: 10px;
-	margin-right: 1rem;
+    margin-right: 10px;
+    margin-right: 1rem;
 }
 
 .contestant-settings .img-container {
-	height: 72px;
-	width: 72px;
+    height: 72px;
+    width: 72px;
 
-	height: 7.2rem;
-	width: 7.2rem;
+    height: 7.2rem;
+    width: 7.2rem;
 
-	display: block;
+    display: block;
 
-	float: left;
+    float: left;
 }
 
 .contestant-settings img {
-	max-width: 72px;
-	max-height: 72px;
+    max-width: 72px;
+    max-height: 72px;
 
-	max-width: 7.2rem;
-	max-height: 7.2rem;
+    max-width: 7.2rem;
+    max-height: 7.2rem;
 
-	display: block;
+    display: block;
 }
 
 .contestant-settings label {
-	line-height: 72px;
-	line-height: 7.2rem;
+    line-height: 72px;
+    line-height: 7.2rem;
 }
 
 .contestant-settings input {
-	width: 90px;
-	width: 9rem;
+    width: 90px;
+    width: 9rem;
 
-	font-size: 30px;
-	font-size: 3rem;
-	height: 30px;
-	height: 3rem;
+    font-size: 30px;
+    font-size: 3rem;
+    height: 30px;
+    height: 3rem;
 
-	padding: 0;
-	border: none;
+    padding: 0;
+    border: none;
 
-	margin-top: 21px;
-	margin-top: 2.1rem;
+    margin-top: 21px;
+    margin-top: 2.1rem;
 }
 
 .contestant-settings .delete {
-	line-height: 72px;
-	line-height: 7.2rem;
+    line-height: 72px;
+    line-height: 7.2rem;
 
-	padding: 0 4px;
-	padding: 0 0.4rem;
+    padding: 0 4px;
+    padding: 0 0.4rem;
 
-	cursor: pointer;
+    cursor: pointer;
 }
 
 #add {
-	text-align: center;
-	line-height: 64px;
-	line-height: 6.4rem;
+    text-align: center;
+    line-height: 64px;
+    line-height: 6.4rem;
 }
 
 main {
-	width: 1400px;
-	height: 413px;
+    width: 1400px;
+    height: 413px;
 
-	position: absolute;
+    position: absolute;
 
-	left: 0;
-	top: 0;
-	bottom: 0;
-	margin: auto 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
 
-	-ms-transform-origin: left;
-	transform-origin: left;
+    -ms-transform-origin: left;
+    transform-origin: left;
 
-	display: block;
+    display: block;
 
-	overflow: visible;
+    overflow: visible;
 }
 
 .contestant {
-	width: 205px;
+    width: 205px;
 
-	margin: 0 auto;
-	position: absolute;
+    margin: 0 auto;
+    position: absolute;
 
-	transition: transform 2s;
+    transition: transform 2s;
 }
 
 .contestant img {
-	width: 100%;
+    width: 100%;
 }
 
 .score-container, .frame-container {
-	position: relative;
+    position: relative;
 }
 
 .frame-scaler {
-	transition: transform 2s;
+    transition: transform 2s;
 
-	-ms-transform-origin: bottom;
-	transform-origin: bottom;
+    -ms-transform-origin: bottom;
+    transform-origin: bottom;
 }
 
 .larger {
-	-ms-transform: scale(1.2);
-	transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 .large {
-	-ms-transform: scale(1.1);
-	transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 .frame-container {
-	filter: drop-shadow(15px 15px 3px rgba(0, 0, 0, 0.4));
+    filter: drop-shadow(15px 15px 3px rgba(0, 0, 0, 0.4));
 
-	margin-bottom: 25px;
-	height: 250px;
+    margin-bottom: 25px;
+    height: 250px;
 
-	-ms-transform-origin: center;
-	transform-origin: center;
+    -ms-transform-origin: center;
+    transform-origin: center;
 
-	-webkit-animation: rotate 3s ease-in-out alternate infinite;
-	animation: rotate 3s ease-in-out alternate infinite;
+    -webkit-animation: rotate 3s ease-in-out alternate infinite;
+    animation: rotate 3s ease-in-out alternate infinite;
 
-	cursor: pointer;
+    cursor: pointer;
 }
 
 .frame {
-	transform: translateZ(0);
+    transform: translateZ(0);
 }
 
 .frame-container:hover, .score-container:hover {
-	filter: drop-shadow(3px 3px white)
-			drop-shadow(-3px -3px white)
-			drop-shadow(3px -3px white)
-			drop-shadow(-3px 3px white);
+    filter: drop-shadow(3px 3px white) drop-shadow(-3px -3px white) drop-shadow(3px -3px white) drop-shadow(-3px 3px white);
 }
 
 @keyframes rotate {
-	0% {
-		transform: rotate(-4deg);
-	}
+    0% {
+        transform: rotate(-4deg);
+    }
 
-	100% {
-		transform: rotate(4deg);
-	}
+    100% {
+        transform: rotate(4deg);
+    }
 }
 
 .frame-container img {
-	position: absolute;
+    position: absolute;
 }
 
 .fill {
-	top: 33px;
-	right: 33px;
-	bottom: 33px;
-	left: 33px;
-	
-	position: absolute;
+    top: 33px;
+    right: 33px;
+    bottom: 33px;
+    left: 33px;
 
-	background-color: white;
-	background-position: center;
-	background-size: cover;
+    position: absolute;
 
-	overflow: hidden;
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+
+    overflow: hidden;
 }
 
 .shadow {
-	width: 100%;
-	height: 100%;
-	position: absolute;
+    width: 100%;
+    height: 100%;
+    position: absolute;
 
-	top: 0;
-	left: 0;
+    top: 0;
+    left: 0;
 
-	box-shadow: inset -5px 5px 7px rgba(0, 0, 0, 0.5);
+    box-shadow: inset -5px 5px 7px rgba(0, 0, 0, 0.5);
 }
 
 .score-container {
-	cursor: text;
+    cursor: text;
 }
 
 .score {
-	position: absolute;
-	top: 0;
-	left: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
 
-	width: 100%;
-	height: 100%;
+    width: 100%;
+    height: 100%;
 
-	box-sizing: border-box;
+    box-sizing: border-box;
 
-	line-height: 180px;
+    line-height: 180px;
 
-	text-align: center;
-	vertical-align: middle;
+    text-align: center;
+    vertical-align: middle;
 
-	margin: 0;
-	padding: 0;
-	margin-left: 8px;
+    margin: 0;
+    padding: 0;
+    margin-left: 8px;
 
-	color: white;
-	font-family: "veteran_typewriterregular", sans-serif;
+    color: white;
+    font-family: "veteran_typewriterregular", sans-serif;
 
-	font-size: 84px;
+    font-size: 84px;
 
-	font-weight: normal;
-	font-style: normal;
+    font-weight: normal;
+    font-style: normal;
 
-	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
 }
 
 .score-edit {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	top: 0;
-	left: 0;
-	text-align: center;
-	font-size: 92px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+    font-size: 92px;
 }
 
 .cover {
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	width: 100%;
-	height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
 
-	background-size: cover;
-	background-position: center;
+    background-size: cover;
+    background-position: center;
 
-	display: none;
+    display: none;
 }
 
 noscript h1 {
-	background-color: white;
+    background-color: white;
 }
 
 #file-input {
-	display: none;
+    display: none;
 }
 
 #play-button {
-	color: transparent;
-	width: 80px;
-	width: 8rem;
-	height: 80px;
-	height: 8rem;
+    color: transparent;
+    width: 80px;
+    width: 8rem;
+    height: 80px;
+    height: 8rem;
 
-	border-radius: 100%;
-	border: 2px solid black;
-	border: 0.2rem solid black;
-	
-	background: rgba(0, 0, 0, 0.2);
+    border-radius: 100%;
+    border: 2px solid black;
+    border: 0.2rem solid black;
 
-	position: absolute;
+    background: rgba(0, 0, 0, 0.2);
 
-	right: 32px;
-	right: 3.2rem;
-	top: 32px;
-	top: 3.2rem;
+    position: absolute;
 
-	cursor: pointer;
+    right: 32px;
+    right: 3.2rem;
+    top: 32px;
+    top: 3.2rem;
 
-	display: none;
+    cursor: pointer;
+
+    display: none;
 }
 
 #play-button::after {
-	content: "";
+    content: "";
 
-	width: 0;
-	height: 0;
+    width: 0;
+    height: 0;
 
-	position: absolute;
-	top: 50%;
-	left: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
 
-	border: 22px solid transparent;
-	border-left: 30px solid #fff;
-	margin-top: -22px;
-	margin-left: -10px;
+    border: 22px solid transparent;
+    border-left: 30px solid #fff;
+    margin-top: -22px;
+    margin-left: -10px;
 }
 
 .exit-button {
-	position: absolute;
-	top: -25px;
-	right: -25px;
+    position: absolute;
+    top: -25px;
+    right: -25px;
 
-	border-radius: 50%;
-	width: 50px;
-	height: 50px;
-	
-	font-size: 32px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+
+    font-size: 32px;
 }
 
 .locked .exit-button, .locked .add-button {
-	display: none;
+    display: none;
 }
 
 .add-button {
-	top: 149.5px;
+    top: 149.5px;
 
-	position: absolute;
-	width: 72px;
-	height: 72px;
+    position: absolute;
+    width: 72px;
+    height: 72px;
 
-	border-radius: 50%;
+    border-radius: 50%;
 
-	background: black;
-	background: rgba(127, 127, 127, 0.8);
-	border: 2px solid black;
+    background: black;
+    background: rgba(127, 127, 127, 0.8);
+    border: 2px solid black;
 
-	font-size: 50px;
-	color: white;
+    font-size: 50px;
+    color: white;
 
-	cursor: pointer;
+    cursor: pointer;
 }

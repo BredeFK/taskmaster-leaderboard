@@ -1,2 +1,6 @@
-# [tm-scoreboard](https://vodbox.github.io/tm-scoreboard/)
-Taskmaster Scoreboard Generator
+# Taskmaster Leaderboard
+
+<small>Forked from https://github.com/VodBox/tm-scoreboard</small>
+
+## Link
+
