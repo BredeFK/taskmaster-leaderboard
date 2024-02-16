@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +8,7 @@
     <title>Taskmaster Leaderboard</title>
 
     <meta name="description" content="Create your own Taskmaster Scoreboard with your friends and family!">
-    <meta name="short_description" content="Taskmaster Scoreboard">
+    <meta name="short_description" content="Taskmaster Leaderboard">
     <meta name="author_description" content="VodBox (Dillon Pentz)">
     <meta name="keywords"
           content="taskmaster, generator, scoreboard, hometasking, home taskmaster, alex horne, greg davies">
@@ -18,15 +18,15 @@
     <meta name="twitter:description" property="twitter:description"
           content="Create your own Taskmaster Scoreboard with your friends and family!">
     <meta name="twitter:image" property="twitter:image"
-          content="https://vodbox.github.io/tm-scoreboard/images/background.jpg">
+          content="https://taskmaster.fritjof.no/images/background.jpg">
     <meta name="twitter:site" property="twitter:site" content="VodBox_IO">
 
     <meta name="og:site_name" content="VodBox">
     <meta name="og:title" content="Taskmaster Scoreboard">
     <meta name="og:description" content="Create your own Taskmaster Scoreboard with your friends and family!">
     <meta name="og:type" content="website">
-    <meta name="og:image" content="https://vodbox.github.io/tm-scoreboard/images/background.jpg">
-    <meta name="og:url" content="https://vodbox.github.io/tm-scoreboard/">
+    <meta name="og:image" content="https://taskmaster.fritjof.no/images/background.jpg">
+    <meta name="og:url" content="https://taskmaster.fritjof.no/">
     <meta name="og:locale" content="en_NZ">
 
     <meta name="HandheldFriendly" content="True">
@@ -38,9 +38,9 @@
     <link id="favicon1" rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
     <link id="favicon2" rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
     <link id=favicon3" rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-    <link id="manifest" rel="manifest" href="favicon/site.webmanifest">
+    <link id="manifest" rel="manifest" href="https://taskmaster.fritjof.no/favicon/site.webmanifest">
 
-    <link rel="canonical" href="https://vodbox.github.io/tm-scoreboard/">
+    <link rel="canonical" href="https://taskmaster.fritjof.no/">
     <link rel="preload" as="font" type="font/woff2" crossorigin href="./fonts/veteran_typewriter-webfont.woff2">
     <link href="./css/style.css" rel="stylesheet" type="text/css">
     <link href="./fonts/veteran_typewriter.css" rel="stylesheet" type="text/css">
@@ -51,7 +51,9 @@
 
 </main>
 
-<button id="play-button">Play</button>
+<button id="playScoreButton" class="play-button">Play</button>
+<button id="playPauseButton" class="play-button">Play</button>
+<audio id="intro-song" src="./sounds/intro.mp3"></audio>
 
 <div class="cover"></div>
 <noscript>

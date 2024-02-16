@@ -332,32 +332,32 @@ noscript h1 {
     display: none;
 }
 
-#play-button {
+#playPauseButton {
+    margin-top: 3.2rem;
+    margin-left: 3.2rem;
+}
+
+#playScoreButton {
+    right: 3.2rem;
+    top: 3.2rem;
+    display: none;
+}
+
+.play-button {
     color: transparent;
-    width: 80px;
     width: 8rem;
-    height: 80px;
     height: 8rem;
 
     border-radius: 100%;
-    border: 2px solid black;
     border: 0.2rem solid black;
 
     background: rgba(0, 0, 0, 0.2);
 
     position: absolute;
-
-    right: 32px;
-    right: 3.2rem;
-    top: 32px;
-    top: 3.2rem;
-
     cursor: pointer;
-
-    display: none;
 }
 
-#play-button::after {
+.play-button::after {
     content: "";
 
     width: 0;
