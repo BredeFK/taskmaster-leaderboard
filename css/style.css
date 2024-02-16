@@ -332,6 +332,12 @@ noscript h1 {
     display: none;
 }
 
+#github a {
+    position: fixed;
+    bottom: 5px;
+    left: 10px;
+}
+
 #playPauseButton {
     margin-top: 3.2rem;
     margin-left: 3.2rem;

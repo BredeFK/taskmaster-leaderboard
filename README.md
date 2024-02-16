@@ -4,4 +4,10 @@
 
 ## Link
 
+## My site
+
 https://taskmaster.fritjof.no/
+
+## Original site
+
+https://vodbox.github.io/tm-scoreboard/
